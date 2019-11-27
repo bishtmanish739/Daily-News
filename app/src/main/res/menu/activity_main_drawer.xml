@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/sport_fragment"
+            android:icon="@drawable/crimeicon"
+            android:title="Sports"/>
+        <item
+            android:id="@+id/crime_fragment"
+            android:icon="@drawable/crimeicon"
+            android:title="Crime"/>
+        <item
+            android:id="@+id/tech_fragment"
+            android:title="Tech News"
+            android:icon="@drawable/technologyicon"/>
+        <item
+            android:icon="@drawable/indiaicon"
+            android:title="National News"
+            android:id="@+id/national_fragment"/>
+
+
+        <item
+            android:id="@+id/nav_business_fragment"
+            android:title="Business"
+            android:icon="@drawable/ic_business_black_24dp"/>
+        <item
+            android:id="@+id/entertainment_fragment"
+            android:title="Entertainment"
+            android:icon="@drawable/ic_menu_camera"/>
+
+    </group>
+
+
+
+</menu>

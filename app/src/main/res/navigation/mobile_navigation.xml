@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="in.technicalkeeda.dailynews.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/crime_fragment"
+        android:name="in.technicalkeeda.dailynews.ui.CrimeNews.crime"
+        android:label="Crime News"
+        tools:layout="@layout/crime_fragment" />
+
+
+
+    <fragment
+        android:id="@+id/nav_business_fragment"
+        android:name="in.technicalkeeda.dailynews.ui.BusinessNews.businessFragment"
+        android:label="Business News"
+        tools:layout="@layout/business_fragment" />
+    <fragment
+        android:id="@+id/sport_fragment"
+        android:label="Sports News"
+        android:name="in.technicalkeeda.dailynews.ui.sportsfragment.sports"
+        tools:layout="@layout/sports_fragment"/>
+    <fragment
+        android:id="@+id/entertainment_fragment"
+        android:label="Entertainment News"
+        android:name="in.technicalkeeda.dailynews.ui.EntertainmentNews.entertainment"
+        tools:layout="@layout/entertainment_fragment"/>
+    <fragment
+        android:id="@+id/national_fragment"
+        android:label="National News"
+        android:name="in.technicalkeeda.dailynews.ui.NationalNews.nationalnews"
+        tools:layout="@layout/nationalnews_fragment"/>
+    <fragment
+        android:id="@+id/tech_fragment"
+        android:label="Tech News"
+        android:name="in.technicalkeeda.dailynews.ui.TechNews.technews"
+        tools:layout="@layout/technews_fragment"/>
+
+
+
+</navigation>
