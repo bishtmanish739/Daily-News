@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
-    public class DownloadTask extends AsyncTask<String,void,String>{
+   /* public class DownloadTask extends AsyncTask<String,void,String>{
         URL url;
         HttpsURLConnection httpsURLConnection;
 
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
         }
-    }
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
